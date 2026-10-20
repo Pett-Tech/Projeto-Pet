@@ -8,19 +8,17 @@ import Produtos from "./pages/Produtos";
 
 const App = () => {
   return (
-    <div>
-      <Footer />
-      <Router>
+    <Router>
+      <div>
         <Header />
-          <Routes>
-            <Route path="/sobre" element={<Sobre />} />
-            <Route path="/" element={<Home />} />
-            <Route path="/produtos" element={<Produtos/>}></Route>
-          </Routes>
-<Footer />
-      </Router>
-
-    </div>
+        <Routes>
+          <Route path="/sobre" element={<Sobre />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/produtos" element={<Produtos/>}></Route>
+        </Routes>
+      </div>
+      <Footer />
+    </Router>
   )
 }
 
