@@ -1,7 +1,7 @@
-const Card = ({titulo, preco, imagem}) => {
-    return(
+const Card = ({ titulo, preco, imagem }) => {
+    return (
         <>
-        
+
         </>
     )
 }
