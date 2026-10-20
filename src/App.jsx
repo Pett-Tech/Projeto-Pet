@@ -1,8 +1,8 @@
-import { BrowserRouter as Router, Route, Route  } from "react-router-dom"
+import { BrowserRouter as Router, Routes, Route  } from "react-router"
 const App = () => {
   return (
     <div>
-      
+      <header></header>
     </div>
   )
 }
