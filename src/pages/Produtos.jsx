@@ -1,4 +1,4 @@
-import Card from "../components/Card"
+import PetCard from "../components/PetCard"
 import imagem_brinquedo from "../assets/brinquedo1.jpg"
 import imagem_coleira from "../assets/coleira.jpg"
 import imagem_racao from "../assets/racao.jpg"
@@ -16,7 +16,7 @@ const Produtos = () => {
             <h2>PRODUTOS EM DESTAQUE</h2>
             <section>
                 {produtos.map((produto) => (
-                    <Card
+                    <PetCard
                     key={produto.id}
                     titulo={produto.titulo}
                     imagem={produto.imagem}

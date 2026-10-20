@@ -1,14 +1,8 @@
-const Card = ({titulo, preco, imagem}) => {
-    return(
-        <div>
-            <img src={imagem} alt={titulo} />
+const Card = ({ titulo, preco, imagem }) => {
+    return (
+        <>
 
-            <article>
-                <h2>{titulo}</h2>
-                <p>{preco}</p>
-                <button>Comprar</button>
-            </article>
-        </div>
+        </>
     )
 }
 
