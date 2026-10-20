@@ -1,10 +1,10 @@
 
 const Footer = () => {
     return (
-        <footer className="bg-[#2B2621] text-[#FDF6EC]">
+        <footer className="bg-orange-600 text-[#FDF6EC]">
             <div div className="max-w-6xl mx-auto px-6 py-10 flex justify-center gap-24 border-b border-[#FDF6EC]/10">
                 <div>
-                    <h3 className="font-semibold mb-2">PetShop</h3>
+                    <h3 className="font-semibold mb-2"><span className="text-black">Pet</span>Shop</h3>
                 </div>
 
                 <div>

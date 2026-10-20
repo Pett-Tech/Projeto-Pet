@@ -9,7 +9,7 @@ import Produtos from "./pages/Produtos";
 const App = () => {
   return (
     <Router>
-      <div>
+      <div className="bg-[#e4c69e] min-h-screen">
         <Header />
         <Routes>
           <Route path="/sobre" element={<Sobre />} />

@@ -1,5 +1,5 @@
 .titulo {
-    background-image: linear-gradient(to right,orange);
+    background: rgb(226, 169, 10);
     text-transform: uppercase;
     margin-bottom: 20px;
     font-weight: 700;
