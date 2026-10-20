@@ -9,7 +9,7 @@ const App = () => {
       <Router>
         <Header />
           <Routes>
-            <Route path="/" element={<Sobre />} />
+            <Route path="/sobre" element={<Sobre />} />
           </Routes>
       </Router>
       

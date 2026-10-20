@@ -6,9 +6,15 @@ const Header = () => {
       <h1 className="logo p-2 text-4xl font-bold text-orange-50 transition-all"><span className="text-orange-50">Pet</span>Shop</h1>
       <nav>
         <ul className="flex list-none items-center gap-8">
-          <li className="text-white text-lg no-underline hover:text-orange-200 hover:underline transition-all cursor-pointer">Home</li>
-          <li className="text-white text-lg no-underline hover:text-orange-200 hover:underline transition-all cursor-pointer">Produtos</li>
-          <li className="text-white text-lg no-underline hover:text-orange-200 hover:underline transition-all cursor-pointer">Sobre</li>
+          <li>
+            <Link to='/' className='text-white text-lg no-underline hover:text-orange-200 hover:underline transition-all'>Home</Link>
+          </li>
+          <li>
+            <Link to='/produtos' className='text-white text-lg no-underline hover:text-orange-200 hover:underline transition-all'>Produtos</Link>
+          </li>
+          <li>
+            <Link to='/sobre' className='text-white text-lg no-underline hover:text-orange-200 hover:underline transition-all'>Sobre</Link>
+          </li>
         </ul>
       </nav>
     </header>
