@@ -12,9 +12,10 @@ const Produtos = () => {
     ];
 
     return(
-        <main>
-            <h2>PRODUTOS EM DESTAQUE</h2>
-            <section>
+        <main className="px-[5%] mt-10 mb-16 grow">
+            <h2 className="text-2xl">PRODUTOS</h2>
+            <p className="text-gray-300">AQUI VOCÊ ENCONTRARÁ TODOS OS PRODUTOS DISPONÍVEIS EM NOSSO PETSHOP!</p>
+            <section className="grid gird-cols-[repeat(auto-fit,minmax(250px,1fr))] gap-6">
                 {produtos.map((produto) => (
                     <PetCard
                     key={produto.id}
