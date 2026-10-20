@@ -4,14 +4,14 @@ const Footer = () => {
     return (
         <footer>
             <div>
-                <h3></h3>
+                <h3>Contato</h3>
                 <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li>contato@pettech.com.br</li>
+                    <li>(11) 4002-8922</li>
+                    <li>São Paulo, SP</li>
                 </ul>
             </div>
-            <p></p>
+            <p>© 2026 PetShop. Todos os direitos reservados.</p>
         </footer>
     )
 }
