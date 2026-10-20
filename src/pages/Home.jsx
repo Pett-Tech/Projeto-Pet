@@ -4,8 +4,8 @@ import imagem_2 from "../assets/imagem_02.jpg"
 
 const Home = () => {
     const servicos = [
-        { id: 1, titulo: "Opção-01", preco: "R$200,00", imagem: imagem_1 },
-        { id: 2, titulo: "Opção-02", preco: "R$300,00", imagem: imagem_2 }
+        { id: 1, titulo: "Banho e tosa - cachorro", preco: "R$200,00", imagem: imagem_1 },
+        { id: 2, titulo: "Banho e tosa - gato", preco: "R$300,00", imagem: imagem_2 }
     ];
     return (
         <main className="px-[5%] mt-10 mb-16 grow">
