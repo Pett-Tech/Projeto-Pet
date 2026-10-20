@@ -7,18 +7,16 @@ import Sobre from "./pages/Sobre";
 
 const App = () => {
   return (
-    <div>
-      <Footer />
-      <Router>
+    <Router>
+      <div>
         <Header />
-          <Routes>
-            <Route path="/sobre" element={<Sobre />} />
-            <Route path="/" element={<Home />} />
-          </Routes>
-<Footer />
-      </Router>
-
-    </div>
+        <Routes>
+          <Route path="/sobre" element={<Sobre />} />
+          <Route path="/" element={<Home />} />
+        </Routes>
+      </div>
+      <Footer />
+    </Router>
   )
 }
 
