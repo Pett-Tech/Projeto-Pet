@@ -1,12 +1,18 @@
+.text-orange-500{
+    color: var(--color-orange-500)
+}
+
 .titulo {
-    background-image: linear-gradient(to right,orange);
+    background-color: var(--color-orange-500);
+    color: black;
     text-transform: uppercase;
-    margin-bottom: 20px;
     font-weight: 700;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
     text-align: center;
 
+    display: table;
+    margin: 0 auto 20px;
+    padding: 8px 20px;
+    border-radius: 30px;
 }
 
 .titulo:hover {
